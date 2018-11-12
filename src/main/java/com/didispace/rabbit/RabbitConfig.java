@@ -5,9 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author flyman
- * @create 2018/11/25.
- *
+ * @author 梁昊
+ * @date 2018/11/8
+ * @function rabbitMQ配置
+ * @editLog
  */
 @Configuration
 public class RabbitConfig {

@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 /**
- * @author flyman
- * @create 2018/11/25.
- *
+ * @author 梁昊
+ * @date 2018/11/8
+ * @function rabbitMQ发送端
+ * @editLog
  */
-
 @Component
 public class Sender {
 
