@@ -19,4 +19,8 @@ public class HelloApplicationTests {
 		sender.send();
 	}
 
+	@Test
+	public void sendToJiaKai(){
+		sender.sendJiaKai();
+	}
 }

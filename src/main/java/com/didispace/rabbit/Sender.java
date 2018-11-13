@@ -24,5 +24,9 @@ public class Sender {
 		System.out.println("Sender : " + context);
 		this.rabbitTemplate.convertAndSend("kaiJia", context);
 	}
-
+	public void sendJiaKai(){
+		String context = "JiaKai_MQ: from lianghao in " + new Date();
+		System.out.println("Sender to JiaKai: " + context);
+		this.rabbitTemplate.convertAndSend("JiaKai", context);
+	}
 }
